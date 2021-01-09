@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container input {
+    border: none;
+    height: 40px;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    box-shadow: 0 0 10px 3px #999;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+.container img:hover {
+    cursor: pointer;
+    user-select: none;
+}
